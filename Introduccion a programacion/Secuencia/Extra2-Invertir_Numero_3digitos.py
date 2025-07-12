@@ -7,7 +7,7 @@ if Num>=1000:
     print("El numero no debe superar los 3 digitos.")
     exit()
 elif Num<100:
-    print("El numero debe superar los 3 digitos.")
+    print("El numero debe superar los 2 digitos.")
     exit()
 
 else:
