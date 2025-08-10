@@ -1,0 +1,17 @@
+#Joshua Ontiveros Cabrero - 250206
+
+#Elaborar un diagrama de flujo que calcule todas las ordenadas pares de la
+#función Y=f(x)= x
+#3 +1 el algoritmo debe imprimir la abcisa y la ordenada
+#para los valores comprendidos entre 0 y 30
+
+# Recorremos los valores de x de 0 a 30
+for x in range(0, 31):
+
+# Calculamos la ordenada
+    y = x**3 + 1
+
+# Solo mostramos si y es par
+
+    if y % 2 == 0:
+        print(f"Abscisa (x): {x} | Ordenada (y): {y}")
